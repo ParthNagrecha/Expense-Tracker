@@ -16,7 +16,9 @@ addexp.addEventListener("click",function(){
     var td1 = tr.appendChild(document.createElement('td'));
     var td2 = tr.appendChild(document.createElement('td'));
     var td3 = tr.appendChild(document.createElement('td'));
+    var bt = tr.appendChild(document.createElement('button'))
 
+    bt.innerText = "X";
     td1.innerHTML = exp;
     td2.innerHTML = amt;
     td3.innerHTML = dt;
@@ -24,7 +26,7 @@ addexp.addEventListener("click",function(){
     document.getElementById('tbl').appendChild(tr);
 
     
-    del.addEventListener('click',function(){
+    bt.addEventListener('click',function(){
         document.getElementById('tbl').removeChild(tr);
         })
 })
