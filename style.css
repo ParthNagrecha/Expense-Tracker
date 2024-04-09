@@ -1,0 +1,17 @@
+body{
+    background-color: blanchedalmond;
+}
+.input-container{
+    text-align: center;
+    margin-top: 50px;
+}
+.storage-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+}
+#tbl{
+    border:2,solid black;
+    width: 500px;
+    height: 20px;
+}

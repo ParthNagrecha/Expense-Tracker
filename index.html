@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expense Tracker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="input-container">
+    <h1>Expense Tracker</h1>
+    <h4>Expense: <input id = "expinput" type="text" placeholder="Grocery"></h4>
+    <h4>Amount: <input id = "amtinput" type="number" placeholder="1000"></h4>
+    <h4>Date: <input id = "dateinput" type="date"></h4>
+    <button id="addexp">Add Exp</button></div>
+    <div class="storage-container">
+        <table id = "tbl" border ="1">
+            <tr>
+                <th>Expense</th>
+                <th>Amount</th>
+                <th>Date</th>
+                <th><button id="remove">X</button></tr> </th>
+            </tr>
+            
+        </table>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
